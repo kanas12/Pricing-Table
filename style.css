@@ -1,0 +1,81 @@
+body{
+    margin: 60;
+    padding: 0;
+    background: url(An5.png) no-repeat;   
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pricing-table{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.tab{
+    background-color: rgb(146, 241, 234);
+    padding: 40px 20px;
+    font-family: "montserrat" ,sans-serif;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px #00000070;
+}
+.tab h3{
+    text-transform: uppercase;
+    font-size: 40px;
+
+}
+.tab ul{
+    margin: 0;
+    padding: 0;
+}
+.tab ul li{
+    padding: 10px;
+    list-style: none;
+}
+.price{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.price span{
+    display: block;
+    font-size: 14px;
+}
+.tab a{
+    text-decoration: none;
+    color: #529de4;
+    border: 2px solid #c8e65b;
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.5s linear;
+
+}
+.tab a:hover{
+    background: #5070c9;
+    color: #fff;
+}
+.col{
+    flex: 25;
+    padding: 10px;
+    max-width: 320px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:1000px) {
+    .pricing-table{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+    
+}
+
+
